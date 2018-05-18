@@ -1,0 +1,337 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=2">
+	<title>Desert Dash</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favi.ico">
+	<meta property="og:site_name" content="Desert Dash">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="css.css?version=96">
+	<script src="http://rawgit.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/ethjs@0.3.0/dist/ethjs.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div id="logooverlay" class="logooverlay"><div class="center">
+<div id="sp0" style="visibility:hidden;"></div>
+<p class="welcome text-align-center">Welcome to</p>
+<img src="logosmall.png" />
+<p class="welcome2 text-align-center">A Massive Multiplayer Blockchain Boardgame</p>
+</div></div>
+<div class="beloverlay"><img style="height:100%; width:100%;" src="bg.gif" /></div>
+<div class="overlay">
+<div style="opacity:1;" class="space" id="sp1"></div>
+<div class="space" id="esp1"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp93"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp94"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp95"></div>
+<div class="space" id="esp2"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp101"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp102"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp103"></div>
+<div class="space" id="esp3"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp109"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp110"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp111"></div>
+<div class="space" id="esp4"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp117"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp118"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp119"></div>
+<div class="space" id="esp5"></div>
+<div style="color:#7c7c7c;opacity:0.85;" class="space" id="sp125"></div>
+<div style="opacity:1;" class="space" id="sp126"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp2"></div>
+<div class="space" id="esp6"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp92"></div>
+<div class="space" id="esp7"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp96"></div>
+<div  class="space" id="esp94"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp100"></div>
+<div class="space" id="esp8"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp104"></div>
+<div class="space" id="esp100"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp108"></div>
+<div class="space" id="esp9"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp112"></div>
+<div class="space" id="esp106"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp116"></div>
+<div class="space" id="esp10"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp120"></div>
+<div class="space" id="esp112"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp124"></div>
+<div class="space" id="esp11"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp3"></div>
+<div class="space" id="esp12"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp91"></div>
+<div class="space" id="esp13"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp97"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp98"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp99"></div>
+<div class="space" id="esp17"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp105"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp106"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp107"></div>
+<div class="space" id="esp21"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp113"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp114"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp115"></div>
+<div class="space" id="esp25"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp121"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp122"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp123"></div>
+<div class="space" id="esp29"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp4"></div>
+<div class="space" id="esp30"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp90"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp89"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp88"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp87"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp86"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp85"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp84"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp83"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp82"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp81"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp80"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp79"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp78"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp77"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp76"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp75"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp74"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp73"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp5"></div>
+<div class="space" id="esp31"></div>
+<div class="space" id="esp32"></div>
+<div class="space" id="esp33"></div>
+<div class="space" id="esp34"></div>
+<div class="space" id="esp35"></div>
+<div class="space" id="esp36"></div>
+<div class="space" id="esp37"></div>
+<div class="space" id="esp38"></div>
+<div class="space" id="esp39"></div>
+<div class="space" id="esp40"></div>
+<div class="space" id="esp41"></div>
+<div class="space" id="esp42"></div>
+<div class="space" id="esp43"></div>
+<div class="space" id="esp44"></div>
+<div class="space" id="esp45"></div>
+<div class="space" id="esp46"></div>
+<div class="space" id="esp47"></div>
+<div class="space" id="esp48"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp72"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp6"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp19"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp20"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp21"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp22"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp23"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp40"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp41"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp42"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp43"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp44"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp45"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp46"></div>
+<div class="space" id="esp51"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp66"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp67"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp68"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp69"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp70"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp71"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp7"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp18"></div>
+<div class="space" id="esp52"></div>
+<div class="space" id="esp53"></div>
+<div class="space" id="esp54"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp24"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp39"></div>
+<div style="color:#7c7c7c;" class="space" id="esp38"><a class="fill-div" href="javascript:joinThisGame()"><div class="nsp text-align-center" id="nsp1"></div></a></div>
+<div style="color:#7c7c7c;" class="space" id="esp56"><div id="selekt" class="text-align-center select-style">
+  <select id="selectedId">
+    <option value="0">Select A Game Piece</option>
+    <option value="1">Bitcoin</option>
+	<option value="2">Ethereum</option>
+	<option value="3">Ripple</option>
+	<option value="4">Bitcoin Cash</option>
+	<option value="5">Litecoin</option>
+	<option value="6">EOS</option>
+	<option value="7">Cardano</option>
+	<option value="8">Stellar</option>
+	<option value="9">IOTA</option>
+	<option value="10">NEO</option>
+	<option value="11">Monero</option>
+	<option value="12">NEM</option>
+	<option value="13">Dash</option>
+	<option value="14">TRON</option>
+	<option value="15">Tether</option>
+	<option value="16">VeChain</option>
+	<option value="17">Ethereum Classic</option>
+	<option value="18">OmiseGO</option>
+	<option value="19">Qtum</option>
+	<option value="20">Verge</option>
+	<option value="21">Binance Coin</option>
+	<option value="22">Lisk</option>
+	<option value="23">ICON</option>
+	<option value="24">Ontology</option>
+	<option value="25">Bitcoin Gold</option>
+	<option value="26">Bytom</option>
+	<option value="27">Zcash</option>
+	<option value="28">Nano</option>
+	<option value="29">Bytecoin</option>
+	<option value="30">Steem</option>
+	<option value="31">Wanchain</option>
+	<option value="32">Siacoin</option>
+	<option value="33">BitShares</option>
+	<option value="34">Dogecoin</option>
+	<option value="35">Bitcoin Private</option>
+	<option value="36">DigixDAO</option>
+	<option value="37">Waves</option>
+	<option value="38">Stratis</option>
+	<option value="39">Zilliqa</option>
+	<option value="40">Maker</option>
+	<option value="41">Decred</option>
+	<option value="42">Bitcoin Diamond</option>
+	<option value="43">RChain</option>
+	<option value="44">Aeternity</option>
+	<option value="45">Status</option>
+	<option value="46">0x</option>
+	<option value="47">Aion</option>
+	<option value="48">NXT</option>
+	<option value="49">Loopring</option>
+	<option value="50">Komodo</option>
+	<option value="51">Golem</option>
+	<option value="52">Augur</option>
+	<option value="53">Ardor</option>
+	<option value="54">IOStoken</option>
+	<option value="55">Hshare</option>
+	<option value="56">KuCoin Shares</option>
+	<option value="57">Ark</option>
+	<option value="58">Basic Attention Token</option>
+	<option value="59">Waltonchain</option>
+	<option value="60">aelf</option>
+	<option value="61">PIVX</option>
+	<option value="62">Substratum</option>
+	<option value="63">Centrality</option>
+	<option value="64">Factom</option>
+	<option value="65">QCASH</option>
+	<option value="66">Dragonchain</option>
+	<option value="67">Monacoin</option>
+	<option value="68">Mithril</option>
+	<option value="69">Gas</option>
+	<option value="70">Syscoin</option>
+	<option value="71">Elastos</option>
+	<option value="72">Ethos</option>
+	<option value="73">FunFair</option>
+	<option value="74">Kyber Network</option>
+	<option value="75">Nebulas</option>
+	<option value="76">Byteball Bytes</option>
+	<option value="77">GXChain</option>
+	<option value="78">ReddCoin</option>
+	<option value="79">WAX</option>
+	<option value="80">SALT</option>
+	<option value="81">Power Ledger</option>
+	<option value="82">Electroneum</option>
+	<option value="83">MaidSafeCoin</option>
+	<option value="84">Mixin</option>
+	<option value="85">ZCoin</option>
+	<option value="86">Storm</option>
+	<option value="87">ChainLink</option>
+	<option value="88">Bancor</option>
+	<option value="89">Dentacoin</option>
+	<option value="90">Request Network</option>
+	<option value="91">Enigma</option>
+	<option value="92">Skycoin</option>
+	<option value="93">Storj</option>
+  </select>
+</div><a class="fill-div" href="javascript:readyThisGame()"><div style="margin-top:4%" class="nsp text-align-center" id="nsp2"></div></a></div>
+<div style="color:#7c7c7c;" class="space" id="esp57"><a class="fill-div" href="javascript:rollDoubleDice()"><div class="nsp text-align-center" id="nsp6"></div></a></div>
+<div style="color:#7c7c7c;" class="space" id="esp58"><a class="fill-div" href="javascript:rollTheDice()"><div class="nsp text-align-center" id="nsp5"></div></a></div>
+<div style="color:#7c7c7c;" class="space" id="esp59"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp47"></div>
+<div class="space" id="esp60"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp65"></div>
+<div class="space" id="esp61"></div>
+<div class="space" id="esp62"></div>
+<div class="space" id="esp63"></div>
+<div class="space" id="esp64"></div>
+<div class="space" id="esp65"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp8"></div>
+<div style="color:#7c7c7c;opacity:0.85;" class="space" id="sp17"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp16"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp15"></div>
+<div class="space" id="esp67"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp25"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp38"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp37"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp36"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp35"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp34"></div>
+<div class="space" id="esp69"><div class="dnsp text-align-center" id="nsp3"></div></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp48"></div>
+<div class="space" id="esp70"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp64"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp63"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp62"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp61"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp60"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp59"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp9"></div>
+<div class="space" id="esp71"></div>
+<div class="space" id="esp72"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp14"></div>
+<div class="space" id="esp73"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp26"></div>
+<div class="space" id="esp74"></div>
+<div class="space" id="esp75"></div>
+<div class="space" id="esp76"></div>
+<div class="space" id="esp77"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp33"></div>
+<div class="space" id="esp78"><div class="ensp text-align-center" id="nsp4"></div></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp49"></div>
+<div class="space" id="esp79"></div>
+<div class="space" id="esp80"></div>
+<div class="space" id="esp81"></div>
+<div class="space" id="esp82"></div>
+<div class="space" id="esp83"></div>
+<div class="space" id="esp84"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp58"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp10"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp11"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp12"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp13"></div>
+<div class="space" id="esp85"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp27"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp28"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp29"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp30"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp31"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp32"></div>
+<div class="space" id="esp86"><a target="_blank" href="https://www.twitter.com/desertdash_fun"><img src="twitter.png" /></a><p><a target="_blank" href="https://ropsten.etherscan.io/address/0xef30c80f0f5f8313ee4bb77126f3d28f2262751a#code"><img src="etherscan.png" /></a></p></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp50"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp51"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp52"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp53"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp54"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp55"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp56"></div>
+<div style="color:#7c7c7c;opacity:1;" class="space" id="sp57"></div>
+</div>
+<div class="menu-div">
+<input style="pointer-events:auto;" id="toggle" type="checkbox"><label for="toggle">Information</label></input>
+	<div id="wrap">
+    <div id="slider"style="overflow-y: auto;">
+	<div id="overflowslider">
+	<img style="height:100%; width:100%;" src="howtoplay.png" />
+	</div>
+    </div>
+	</div>
+	</div>
+<script src="main.js?version=96"></script>
+
+</body>
+</html>
